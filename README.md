@@ -25,6 +25,7 @@ For the sake of submission handling the field should have “id” to provide th
 There are two validations for each field. 
 
 1 - “required” fields are handled by Form itself.
+
 2 - “per component” validations are handled within its component. 
 
 the implemented validation are as below :
