@@ -34,3 +34,6 @@ for input : “filename” and “email”
 for date “above18”
 
 If the input is not matching the validation the payload will not include it and form submission will be dead. And the “description” of the component will turn red. (it can be handled better)
+
+## start the app
+Simply pull the repo in localhost and do ```npm install``` and ```npm start```
