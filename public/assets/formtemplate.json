@@ -1,0 +1,108 @@
+{
+        "newsletter": {
+                "0" : {
+                    "type" : "input" ,
+                    "placeholder" : "enter your full name",
+                    "id" : "fullname",
+                    "label" : "Fullname",
+                    "description" : "Your full name here ie: 'John Doe",
+                    "validation" : "fullname",
+                    "isRequired" : true,
+                    "class" : ["form-control"],
+                    "style" : {
+                        "color": "#dedede",
+                        "fontSize" : "14px"
+                    }
+                },
+                "1" : {
+                    "type" : "input" ,
+                    "placeholder" : "enter your email",
+                    "id" : "email",
+                    "description" : "Use a valid email address",
+                  "isRequired" : true,
+                    "label" : "Email address",
+                    "validation" : "email",
+                    "class" : ["form-control"],
+                    "style" : {
+                        "color": "#dedede",
+                        "fontSize" : "14px"
+                    }
+                },
+
+              "2" : {
+                "type" : "date" ,
+                "placeholder" : "enter your date of birth",
+                "id" : "DOB",
+                "label" : "Date of birth",
+                "isRequired" : true,
+                "description" : "Should be at least 18 years old",
+                "validation" : "above18",
+                "class" : ["form-control"],
+                "style" : {
+                  "color": "#dedede",
+                  "fontSize" : "14px"
+                }
+              },
+                "3" : {
+                    "type" : "checkbox" ,
+                    "placeholder" : "require guardian consent",
+                    "id" : "guardian_consent",
+                    "label" : "Require guardian consent",
+                    "validation" : "required_checkbox",
+                    "class" : ["form-check-input"],
+                    "style" : {
+                        "color": "#dedede",
+                        "fontSize" : "14px"
+                    }
+                },
+                "4" : {
+                    "type" : "input" ,
+                    "placeholder" : "enter guardian details",
+                    "description" : "Your full name here ie: 'John Doe",
+                    "id" : "guardian_fullname",
+                    "label" : "Guardian's fullname",
+                    "validation" : "fullname",
+                    "class" : ["form-control"],
+                    "style" : {
+                        "color": "#dedede",
+                        "fontSize" : "14px"
+                    }
+                },
+
+                "5" : {
+                    "type" : "select" ,
+                    "placeholder" : "Select Gender",
+                    "id" : "gender_select",
+                    "label" : "Gender",
+                    "validation" : "",
+                    "options" : ["male", "female" , "NA"],
+                    "class" : ["form-control"],
+                    "style" : {
+                        "color": "#dedede",
+                        "fontSize" : "14px"
+                    }
+                },
+                 "6" : {
+                    "type" : "button" ,
+                    "text" : "Submit",
+                    "id" : "submit",
+                    "label" : "",
+                     "class" : ["btn", "btn-primary"],
+                     "style" : {
+                        "color": "#dedede",
+                        "fontSize" : "14px"
+                    }
+                 },
+                "7" : {
+                    "type" : "button" ,
+                    "text" : "cancel",
+                    "id" : "cancel",
+                    "label" : "",
+                    "class" : ["btn", "btn-secondary"],
+                    "style" : {
+                        "color": "#dedede",
+                        "fontSize" : "14px"
+                    }
+                }
+        }
+}
